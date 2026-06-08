@@ -12,7 +12,8 @@
   --transition-timing-func: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body {
+.body {
+  /*base */
   color: var(--primary-text-color);
   background-color: var(--white-text-color);
 
@@ -20,6 +21,7 @@ body {
 }
 
 .container {
+  /*base */
   margin-top: 0;
   margin-bottom: 0;
   margin-right: auto;
@@ -30,19 +32,23 @@ body {
 }
 
 .section {
+  /*base */
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.section-top {
+.section--top {
+  /* сделать отделльно для advantages */
   padding-top: 94px;
 }
 
 .link {
+  /*base */
   text-decoration: none;
 }
 
 .list {
+  /*base */
   padding: 0;
   margin: 0;
   list-style: none;
@@ -64,7 +70,7 @@ body {
   color: var(--accent-text-color);
 }
 
-.logo--footer{
+.logo--footer {
   margin-bottom: 20px;
   color: var(--white-text-color);
 }
@@ -83,25 +89,22 @@ body {
   overflow: hidden;
 }
 
-
-
 /*-------------------Header-----------------*/
 .header-flex {
   display: flex;
   align-items: center;
 }
 
-.header--b-border{
-  border-bottom: 1px solid #ECECEC;
+.header--b-border {
+  border-bottom: 1px solid #ececec;
 }
 
-        /* header-nav */
+/* header-nav */
 .header-nav__list {
   display: flex;
   margin-left: 93px;
   gap: 50px;
 }
-
 
 .header-nav__link {
   display: block;
@@ -141,7 +144,7 @@ body {
   background-color: var(--accent-text-color);
 }
 
-       /* header-address */
+/* header-address */
 .header-address {
   display: flex;
   margin-left: auto;
@@ -163,7 +166,6 @@ body {
 
   transition: color 250ms var(--transition-timing-func);
 }
-
 
 .header-address__link:hover,
 .header-address__link:focus {
@@ -213,8 +215,8 @@ body {
   line-height: 1;
   letter-spacing: 0.03em;
 }
-         
-      /* footer-address */
+
+/* footer-address */
 .footer-address__text {
   margin-top: 0;
   margin-bottom: 9px;
@@ -241,7 +243,7 @@ body {
 .footer-address__link:not(:last-child) {
   margin-bottom: 9px;
 }
-      /*-----------*/
+/*-----------*/
 
 .footer__text {
   margin-top: 0;
@@ -257,14 +259,13 @@ body {
   text-transform: uppercase;
 }
 
-      /* footer-nav */
+/* footer-nav */
 .footer-nav__list {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
   gap: 10px;
 }
-
 
 .footer-nav__link {
   display: flex;
@@ -291,7 +292,7 @@ body {
   fill: currentColor;
 }
 
-    /* footer-form */
+/* footer-form */
 .footer-form {
   margin-left: 122px;
 }
@@ -351,7 +352,6 @@ body {
   padding: 0 4px;
 }
 
-
 .footer-form__btn {
   display: inline-flex;
   align-items: center;
@@ -376,9 +376,3 @@ body {
   height: 24px;
 }
 /**/
-
-
-
-
-
-
