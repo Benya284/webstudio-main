@@ -80,7 +80,7 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-text-color);
+    color: getColor("accent");
   }
 }
 
