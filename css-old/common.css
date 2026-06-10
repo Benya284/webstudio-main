@@ -56,6 +56,7 @@
 
 /*-----Logo------*/
 .logo {
+  /*base */
   display: inline-block;
   color: var(--black-text-color);
 
@@ -67,15 +68,18 @@
 }
 
 .logo__accent {
+  /*base */
   color: var(--accent-text-color);
 }
 
 .logo--footer {
+  /*отдельно в футер */
   margin-bottom: 20px;
   color: var(--white-text-color);
 }
 
 .visually-hidden {
+  /*base */
   position: absolute;
   width: 1px;
   height: 1px;
