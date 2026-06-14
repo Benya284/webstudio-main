@@ -1,6 +1,6 @@
 @import "../utils/vars";
 
-.body {
+body {
   color: getColor("primary");
   background-color: getColor("white");
 
@@ -20,6 +20,24 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+  }
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+
+  text-align: center;
 }
 
 .link {
