@@ -1,0 +1,47 @@
+@import "../utils/vars";
+
+.advantages__list {
+  display: flex;
+  gap: 30px;
+}
+
+.advantages__img {
+  display: block;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+
+  background-color: getColor("background-1");
+  border-radius: 4px;
+}
+
+.advantages__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages__quality {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: getColor("primary");
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages__text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: getColor("second");
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

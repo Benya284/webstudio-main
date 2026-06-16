@@ -31,6 +31,10 @@ body {
   }
 }
 
+.section--top {
+  padding-top: 94px;
+}
+
 .section__title {
   font-weight: 700;
   font-size: 36px;
@@ -38,6 +42,11 @@ body {
   letter-spacing: 0.03em;
 
   text-align: center;
+}
+
+.section__title--b-indent {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .link {
