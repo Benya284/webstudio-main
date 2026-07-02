@@ -1,4 +1,12 @@
-@import "../utils/vars";
+@import "../../utils/templates";
+@import "../../utils/vars";
+
+.classes {
+  outline: 1px solid tomato;
+  @media screen and (max-width: 480px) {
+    @include visually-hidden;
+  }
+}
 
 .classes__list {
   display: flex;

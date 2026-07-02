@@ -1,0 +1,28 @@
+@import "../utils/vars";
+
+body {
+  color: getColor("primary");
+  background-color: getColor("white");
+
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 0px 15px;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+  }
+}
